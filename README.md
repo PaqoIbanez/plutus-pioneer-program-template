@@ -1,14 +1,14 @@
 # A Plutus template for "Iteration #2 - Plutus Pioneer Program"
 
-This is a [plutus](https://github.com/input-output-hk/plutus) template configured to try and run the plutus playground server and ready to work with the lectures of the second iteration of Plutus Pioneer Program with a nix based development environment on [Gitpod](https://www.gitpod.io/).
+This is a [Plutus](https://github.com/input-output-hk/plutus) template configured to try and run a Plutus Playground Server and ready to work with the lectures of the second iteration of Plutus Pioneer Program with a nix based development environment on [Gitpod](https://www.gitpod.io/).
 
-## First Steps
-- In a browser, navigate to this address [\\\](\\\). (You need to signup on Gitpod with your GitHub, GitLab or Bitbucket account), once you signed up, it will create a workspace with this template.
+## First steps to get ready
+- Click or navigate in a browser to this address [gitpod.io/#https://github.com/PaqoIbanez/plutus-pioneer-program-template](gitpod.io/#https://github.com/PaqoIbanez/plutus-pioneer-program-template). (You need to signup on Gitpod with your GitHub, GitLab or Bitbucket account), once you signed up, it will create you a workspace with this template.
 - Now you only need to clone the next github repositories:
     - `git clone https://github.com/input-output-hk/plutus.git`
     - `git clone https://github.com/input-output-hk/plutus-pioneer-program.git`
 
-## Run Plutus playground server
+## Run the Plutus Playground Server
 
 Go to plutus/plutus-playground-server directory and run a nix-shell (It might take a while). Once nix-shell is ready, in the same directory type plutus-playground-server.
 - `nix-shell`
