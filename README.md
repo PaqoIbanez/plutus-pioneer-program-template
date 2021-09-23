@@ -3,7 +3,7 @@
 This is a [Plutus](https://github.com/input-output-hk/plutus) template configured to try and run a Plutus Playground Server and ready to work with the lectures of the second iteration of Plutus Pioneer Program with a nix based development environment on [Gitpod](https://www.gitpod.io/).
 
 ## First steps to get ready
-- Click or navigate in a browser to this address [gitpod.io/#https://github.com/PaqoIbanez/plutus-pioneer-program-template](gitpod.io/#https://github.com/PaqoIbanez/plutus-pioneer-program-template). (You need to signup on Gitpod with your GitHub, GitLab or Bitbucket account), once you signed up, it will create you a workspace with this template.
+- Click or navigate in a browser to this address [gitpod.io/#https://github.com/PaqoIbanez/plutus-pioneer-program-template](https://gitpod.io/#https://github.com/PaqoIbanez/plutus-pioneer-program-template). (You need to signup on Gitpod with your GitHub, GitLab or Bitbucket account), once you signed up, it will create you a workspace with this template.
 - Now you only need to clone the next github repositories:
     - `git clone https://github.com/input-output-hk/plutus.git`
     - `git clone https://github.com/input-output-hk/plutus-pioneer-program.git`
