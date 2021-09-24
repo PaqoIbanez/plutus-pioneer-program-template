@@ -37,7 +37,7 @@ In a terminal run the following:
 - `chmod +x ./gitpod-local-companion-*`
 
 #### Windows
-- curl -OL https://gitpod.io/static/bin/gitpod-local-companion-windows.exe
+- `curl -OL https://gitpod.io/static/bin/gitpod-local-companion-windows.exe`
 
 ## Running Gitpod Local Companion
 
