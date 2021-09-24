@@ -44,4 +44,4 @@ In a terminal run the following:
 - `./gitpod-local-companion-[darwin|linux]`
 - On windows you can execute on cmd `gitpod-local-companion-windows.exe`
 
-At this point you will be able to open in your browse https://localhost:8009/
+At this point you will be able to open and see running the Plutus Playground running in your browse https://localhost:8009/
