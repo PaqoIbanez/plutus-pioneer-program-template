@@ -12,18 +12,20 @@ This is a [Plutus](https://github.com/input-output-hk/plutus) template configure
 
 Go to plutus/plutus-playground-server directory and run a nix-shell (It might take a while). Once nix-shell is ready, in the same directory type plutus-playground-server.
 - `cd plutus`
-- `nix-shell`
-- `cd plutus/plutus-playground-server`
-- `plutus-playground-server`
+- `nix-shell` (10 minutes around the first time)
+- `cd plutus-playground-client` 
+- `plutus-playground-server` (2 minutes around)
 
 Open another terminal (plutus/plutus-playground-server), and in the same directory run npm start (It will take a while the first time, so be patient).
-- `nix-shell`
-- `cd plutus/plutus-playground-server`
-- `npm start`
+- `cd plutus` 
+- `nix-shell` (30 seconds around)
+- `cd plutus-playground-client`
+- `npm start` (5 minutes around)
 
 ## Gitpod Local Companion Installation
 
 We will need to install [Gitpod Local Companion](https://www.gitpod.io/blog/local-app) if we want to open the Plutus Playground in our localhost.
+In a terminal run the following:
 
 #### mac
 - `curl -OL https://gitpod.io/static/bin/gitpod-local-companion-darwin`
@@ -33,6 +35,12 @@ We will need to install [Gitpod Local Companion](https://www.gitpod.io/blog/loca
 - `curl -OL https://gitpod.io/static/bin/gitpod-local-companion-linux`
 - `chmod +x ./gitpod-local-companion-*`
 
+### windows
+  curl -OL https://gitpod.io/static/bin/gitpod-local-companion-windows.exe
+
 ## Running Gitpod Local Companion
 
-- `./gitpod-local-companion-[darwin|linux`
+- `./gitpod-local-companion-[darwin|linux|windows]`
+- On windows you can execute gitpod-local-companion-windows.exe
+
+At this point you will be able to open in your browse https://localhost:8009/
