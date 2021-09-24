@@ -11,6 +11,7 @@ This is a [Plutus](https://github.com/input-output-hk/plutus) template configure
 ## Run the Plutus Playground Server
 
 Go to plutus/plutus-playground-server directory and run a nix-shell (It might take a while). Once nix-shell is ready, in the same directory type plutus-playground-server.
+- `cd plutus`
 - `nix-shell`
 - `cd plutus/plutus-playground-server`
 - `plutus-playground-server`
