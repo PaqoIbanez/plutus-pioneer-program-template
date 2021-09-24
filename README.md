@@ -42,6 +42,6 @@ In a terminal run the following:
 ## Running Gitpod Local Companion
 
 - `./gitpod-local-companion-[darwin|linux]`
-- On windows you can execute on cmd gitpod-local-companion-windows.exe
+- On windows you can execute on cmd `gitpod-local-companion-windows.exe`
 
 At this point you will be able to open in your browse https://localhost:8009/
