@@ -1,9 +1,8 @@
 image:
   file: .gitpod.Dockerfile
-tasks:
-  - init: |
-      nix --version
-
+  
 vscode:
   extensions:
     - bbenoist.Nix
+    - haskell.haskell
+    - justusadam.language-haskell
