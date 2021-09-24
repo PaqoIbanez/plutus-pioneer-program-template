@@ -25,6 +25,7 @@ Open another terminal (plutus/plutus-playground-server), and in the same directo
 ## Gitpod Local Companion Installation
 
 We will need to install [Gitpod Local Companion](https://www.gitpod.io/blog/local-app) if we want to open the Plutus Playground in our localhost.
+
 In a terminal run the following:
 
 #### Mac
